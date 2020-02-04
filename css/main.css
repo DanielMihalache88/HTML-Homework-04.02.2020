@@ -1,0 +1,122 @@
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    text-align: center;
+}
+
+table td, 
+table th {
+    border: 1px solid #333333;
+    padding: 10px 20px;
+}
+
+.banner {
+    text-align: center;
+}
+
+.footer {
+    padding-top: 100px;
+}
+
+.footer article {
+    max-width: 30%;
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footer__contact a {
+    display: block;
+}
+
+/* ------------ Page Home--------- */
+
+.categories {
+    max-width: 25%;
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.best-sellers {
+    max-width: 70%;
+    width: 100%;
+    display: inline-block;
+}
+
+.best-sellers__tv,
+.best-sellers__laptop {
+    max-width: 49%;
+    width: 100%;
+    display: inline-block;
+}
+
+/* ------------ Page Home END----- */
+
+/* ----------- Page ABOUT -----------*/
+
+.about {
+    padding-top: 50px;
+}
+
+.about header {
+    text-align: center;
+}
+
+.team {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.team footer {
+    padding: 0 50px;
+}
+
+.team__member {
+    max-width: 49%;
+    display: inline-block;
+}
+
+/* ----------- Page ABOUT END-------*/
+
+/* ----------- Page PRODUCTS ---------- */
+
+.products article {
+    max-width: 45%;
+    width: 100%;
+    display: inline-block;
+}
+
+/* ----------- Page PRODUCTS  END------ */
+
+
+/* ----------- Page Contact Us----------- */
+
+form {
+    max-width: 50%;
+    width: 100%;
+} 
+
+form li {
+    padding-bottom: 20px;
+    display: inline-block;
+    max-width: 48%;
+    width: 100%;
+    vertical-align: top;
+}
+
+li input,
+li textarea {
+    display: block;
+    padding: 20px;
+    max-width: 300px;
+    width: 100%;
+}
+
+form button {
+    margin-top: 10px;
+}
+
+
+/* ----------- Page Contact Us END------- */
